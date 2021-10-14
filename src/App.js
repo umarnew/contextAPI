@@ -8,7 +8,7 @@ const FirstName = createContext();
 function App() {
   return (
     <>
-      <FirstName.Provider value={"Umar"}>
+      <FirstName.Provider value={"Umar1"}>
         <Component1 />
       </FirstName.Provider>
     </>
